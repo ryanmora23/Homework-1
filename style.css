@@ -1,0 +1,30 @@
+.header {
+    background-color: purple;
+    background-image: url(https://media.giphy.com/media/pa37AAGzKXoek/giphy.gif);
+    height: 350px;
+    background-size: cover;
+    background-position: 0px 5%;
+}
+
+.container {
+	text-align: center;
+	max-width: 800px;
+	margin: auto;
+}
+
+.left-column {
+	display: inline-block;
+	min-height: 200px;
+	background-color: blue;
+	width:25%;
+	vertical-align: top;
+}
+
+.right-column {
+	display: inline-block;
+	min-height: 1000px;
+	background-color: orange;
+	width: 74%;
+	vertical-align: top;
+	position: absolute;
+}
